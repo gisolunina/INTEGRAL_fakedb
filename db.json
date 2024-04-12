@@ -8,7 +8,13 @@
       ],
       "continent": "Europe",
       "country": "IT",
-      "criticalAsset": 1
+      "criticalAsset": 1,
+      "positionList": [
+        {
+          "height": [0 0 0 0 0 0],
+          "latitude": [-50.5 -50.5 -15.5 -15.5 -50.5],
+          "longitude": [100.5 155.5 155.5 100.5 100.5]
+        }
     }
   ]   
 }
