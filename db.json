@@ -17,5 +17,81 @@
         }
       ]
     }
-  ]   
+  ],
+  
+  "SMOInputScenario": [
+    {
+      "areaOfInterest": "AoiEntity",
+      "scenarioName": "SC1",
+      "spaceAssetListOverflight": [
+        {
+          "identifier": [
+            {
+              "uuid": "9d6fba48-afc4-41f1-ad01-e520854776db",
+              "name": "NAME_RSO"
+            }
+          ],
+          "entityData": [
+            {
+              "affiliation": "Hostile"
+            }
+          ],
+          "noradId": 10523
+        }
+      ],
+      "timeResolutionOverflight": 1,
+      "unfrOverflightThresholds": [
+        {
+          "overflightsNumber": 5,
+          "overflightMinDuration": [
+            {
+              "totalSeconds": 10
+            }
+          ],
+          "overflightAvgDuration": [
+            {
+              "totalSeconds": 100
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "SMOInputSession": [
+    {
+      "startTime": "2021-10-14T22:20:35.000",
+      "endTime": "2021-10-15T00:44:35.000"
+    }
+  ],
+
+  "SpaceObjectEntity": [
+    {
+      "ephemeris": [
+        {
+          "identifier": [
+            {
+              "uuid": "9d6fba48-afc4-41f1-ad01-e520854776db",
+              "name": "NAME_RSO"
+            }
+          ],
+          "noradId": 10523,
+          "refFrame": "Eme2000",
+          "timeInterval": [
+            {
+              "startDateTime": "2021-05-10T12:00:00.000",
+              "endDateTime": "2021-06-10T12:00:00.000"
+            }
+          ],
+          "entityData": [
+            {
+              "isSimulated": false
+            }
+          ],
+          "ephemerisData": "ephemerisData"
+        }
+      ],
+      "maneuverRecords": NULL
+    }
+  ]
 }
