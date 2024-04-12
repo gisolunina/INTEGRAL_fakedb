@@ -91,7 +91,7 @@
           "ephemerisData": "ephemerisData"
         }
       ],
-      "maneuverRecords": NULL
+      "maneuverRecords": 0
     }
   ]
 }
