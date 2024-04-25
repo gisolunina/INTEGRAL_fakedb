@@ -93,5 +93,23 @@
       ],
       "maneuverRecords": 0
     }
+  ],
+
+  "SensorEntity": [
+    {
+      "sensorData": [
+      {
+        "operationalFlag": 0,
+        "name": "NAME_SENSOR",
+        "sensorType": "Optical",
+        "Fov": [
+          {
+            "fixedAzimuth": 10,
+            "fixedElevation": 5
+          }
+        ]
+      }
+      ]
+    }
   ]
 }
