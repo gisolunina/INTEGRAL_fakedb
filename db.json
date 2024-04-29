@@ -113,7 +113,7 @@
     }
   ],
 
-  [
+  "scenarioList": [
     {
         "id": "SCN1",
         "name": "scenario1",
